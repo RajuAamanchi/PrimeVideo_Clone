@@ -1,5 +1,3 @@
-Here’s a single, clean, left-aligned README you can drop into GitHub as-is:
-
 ````markdown
 # Prime Video (React)
 
