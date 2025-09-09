@@ -1,0 +1,61 @@
+.movie-card {
+  padding: 6px;
+}
+
+.thumbnail {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Overlay above everything (slick arrows, etc.) */
+.pv-overlay {
+  background: rgba(0, 0, 0, 0.75);
+  z-index: 1000 !important;
+}
+
+/* Modal shell */
+.pv-modal {
+  position: relative;
+  width: 92vw;
+  max-width: 960px;
+  margin: 0 auto;
+  background: #000;
+  border-radius: 10px;
+  padding: 12px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.5);
+}
+
+/* Close button */
+.pv-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  border: none;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  z-index: 2;
+}
+
+/* 16:9 responsive box */
+.pv-player-wrap {
+  position: relative;
+  padding-top: 56.25%;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* ReactPlayer and its internal wrappers fill the box */
+.pv-player-wrap > div,
+.pv-player-wrap iframe,
+.pv-player-wrap video {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+  border: 0;
+}
