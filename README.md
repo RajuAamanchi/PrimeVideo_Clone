@@ -1,4 +1,4 @@
-````markdown
+
 # Prime Video (React)
 
 A small Prime Video clone built with React. It showcases category-wise carousels using React Slick and a popup video player using React Player.
