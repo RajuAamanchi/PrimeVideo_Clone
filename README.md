@@ -8,7 +8,7 @@ A small Prime Video clone built with React. It showcases category-wise carousels
 ## Preview
 
 Video demo:
-  ![IPL Dashboard Preview]( https://assets.ccbp.in/frontend/content/react-js/prime-video-output.mp4  )
+  ![IPL Dashboard Preview](https://assets.ccbp.in/frontend/content/react-js/prime-video-output.mp4)
 
 ---
 
